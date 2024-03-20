@@ -33,7 +33,6 @@ const CampStite = ({
             {PEOPLE_URL.map((url) => (
               <Image
                 src={url}
-                key={url}
                 alt="person"
                 width={20}
                 height={20}
