@@ -1,12 +1,12 @@
 import { PEOPLE_URL } from "@/constant";
 import Image from "next/image";
 import Map from "/public/folded-map.svg";
-interface Camprops {
+type Camprops = {
   backgroundImage: string;
   title: string;
   subtitle: string;
   peopleJoined: string;
-}
+};
 
 const CampStite = ({
   backgroundImage,
